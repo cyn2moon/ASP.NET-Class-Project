@@ -1,0 +1,69 @@
+﻿fieldset
+{
+    display: inline-block;
+}
+
+.header 
+{
+    text-align:center;
+}
+
+.header h1
+{
+    color:#0f1478;
+}
+
+.body1,
+.body2,
+.body3,
+.body4
+{
+    padding-top: 1em;
+}
+
+.body1 td
+{
+    padding-right:2em;
+}
+
+.body1 label,
+.body3 label
+{
+    margin-right: .4em;
+}
+
+.body2 td,
+.body3.td,
+.body4 td
+{
+    padding-right:.25em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.body4 td
+{
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.row
+{
+    width:100%;
+}
+
+.column
+{
+    float:left;
+}
+
+.alignRight
+{
+    float: right;
+}
+
+.footer
+{
+    font-size:9px;
+}

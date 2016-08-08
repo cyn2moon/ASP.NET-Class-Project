@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<dsUserApplications xmlns="http://tempuri.org/dsUserApplications.xsd">
+  <tblUserApplications>
+    <ID>-1</ID>
+    <ApplicationName>WEB460</ApplicationName>
+    <ProgrammingLanguage>C#</ProgrammingLanguage>
+  </tblUserApplications>
+  <tblUserApplications>
+    <ID>-2</ID>
+    <ApplicationName>PA</ApplicationName>
+    <ProgrammingLanguage>HTML</ProgrammingLanguage>
+  </tblUserApplications>
+  <tblUserApplications>
+    <ID>-3</ID>
+    <ApplicationName>Shopping Cart</ApplicationName>
+    <ProgrammingLanguage>PHP</ProgrammingLanguage>
+  </tblUserApplications>
+  <tblUserApplications>
+    <ID>-4</ID>
+    <ProgrammingLanguage>Hulk</ProgrammingLanguage>
+  </tblUserApplications>
+  <tblUserApplications>
+    <ID>-5</ID>
+    <ApplicationName>Ironman</ApplicationName>
+    <ProgrammingLanguage>Pepper</ProgrammingLanguage>
+  </tblUserApplications>
+</dsUserApplications>

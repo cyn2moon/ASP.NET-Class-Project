@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Programaholics Anonymous</title>
+    <link href="Styles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="HeadPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frmMaster" runat="server">
+    <div class="header">
+        <h1>Programaholics Anonymous</h1>
+        <h2><asp:Label ID="lblPageTitle" runat="server" Text=""></asp:Label></h2>
+        <h5><asp:Label ID="lblErrorMessage" runat="server" Text="" ForeColor="Red"></asp:Label></h5>
+    </div>
+        <hr />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server"></asp:ContentPlaceHolder>
+    <div class="footer">
+        <p>Copyright &copy; 2015 Web460 Creations</p>
+    </div>
+    </form>
+</body>
+</html>
